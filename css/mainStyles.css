@@ -1,0 +1,31 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: blue;
+      color: white;
+}
+
+@media only screen and (min-width:380px) and (max-width:800px) {
+      body {
+            padding: 5%;
+            background-color: brown;
+      }
+}
+
+@media only screen and (min-width:800px) {
+      body {
+            padding: 15%;
+            background-color:olivedrab;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      article {
+            border: solid 2px white;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            padding: 5px;
+      }
+
+      aside {
+            display: none;
+      }
+}
